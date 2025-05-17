@@ -22,6 +22,7 @@ public class Cerchio implements Forma{
 	public int getRaggio() {
 		return this.raggio;
 	}
+	
 
 	@Override
 	public boolean equals(Object o) {
