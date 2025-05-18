@@ -18,6 +18,8 @@ public class Cerchio implements Forma{
 	public Punto getCentro() {
 		return this.centro;
 	}
+	
+	
 
 	public int getRaggio() {
 		return this.raggio;
