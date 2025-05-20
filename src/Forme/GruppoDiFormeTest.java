@@ -62,9 +62,11 @@ class GruppoDiFormeTest {
 		GruppoDiForme g1 = new GruppoDiForme();
 		GruppoDiForme g2 = new GruppoDiForme();
 		g1.aggiungiForma(new Cerchio(singolo, 0));
+		g1.aggiungiForma(new Rettangolo(p1, 0, 0));
 		g1.aggiungiForma(p2);
 		g2.aggiungiForma(p2);
 		g2.aggiungiForma(singolo);
+		g2.aggiungiForma(p1);
 		assertEquals(g1, g2);
 	}
 	

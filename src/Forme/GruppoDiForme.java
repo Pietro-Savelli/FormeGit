@@ -131,7 +131,7 @@ public class GruppoDiForme implements Forma {
 		if (this == obj)
 			return true;
 
-		if (obj == null || getClass() != obj.getClass())
+		if (obj == null || this.getClass() != obj.getClass())
 			return false;
 
 		GruppoDiForme that = (GruppoDiForme) obj;
